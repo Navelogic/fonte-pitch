@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12141f">
+<title>FONTE · Gestão de produção de eventos</title>
+<meta name="description" content="A FONTE guarda uma única versão do seu evento, e é essa que a equipe inteira segue. Criação do evento, quadro da equipe e controle de estoque no mesmo lugar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"><span id="progress"></span></div>
+
+<div class="page">
+
+  <header class="top">
+    <div class="brand">
+      <span class="brand-name">FONTE</span>
+      <span class="brand-tag">Gestão de produção de eventos</span>
+    </div>
+    <span class="pill"><i class="pill-dot"></i>Em desenvolvimento · beta fechado</span>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-copy">
+      <h1 data-split>Feito por quem produz, para quem produz</h1>
+      <p class="lead" data-reveal>Você já passou por isso: o horário mudou no grupo, a planilha ficou velha e alguém montou o palco com a informação errada. A FONTE guarda uma única versão do seu evento, e é essa que a equipe inteira segue.</p>
+      <p class="sub" data-reveal data-delay="1">Criação do evento, quadro da equipe e controle de estoque no mesmo lugar.</p>
+      <div class="cta-row" data-reveal data-delay="2">
+        <a class="btn" data-wa href="#" target="_blank" rel="noopener">Quero entrar no beta fechado <span class="arrow" aria-hidden="true">→</span></a>
+        <span class="note">Você fala direto com a gente no WhatsApp.</span>
+      </div>
+    </div>
+
+    <div class="board" data-reveal data-delay="2" aria-label="Exemplo de quadro da equipe">
+      <div class="board-glow"></div>
+      <div class="board-inner">
+        <div class="board-title"><i class="live-dot"></i>Quadro · Montagem Temporada 2026</div>
+        <div class="cols">
+          <div class="col" data-col="doing"><div class="col-head doing">Em andamento</div></div>
+          <div class="col" data-col="wait"><div class="col-head">Aguardando</div></div>
+          <div class="col" data-col="done"><div class="col-head done">Concluído</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="sec">
+    <h6 data-reveal>O problema</h6>
+    <div class="split">
+      <h2 data-reveal class="h-lg">No dia do evento, ninguém sabe qual versão é a verdadeira.</h2>
+      <div class="stack">
+        <p class="body" data-reveal>A ficha técnica está num PDF antigo. O horário mudou no grupo, mas não na planilha. O material que era pra estar no palco ficou no depósito. Cada um da equipe trabalha com uma informação diferente, e o erro aparece na pior hora possível: com o público chegando.</p>
+        <ul class="issues">
+          <li data-reveal data-delay="1"><span class="num">01</span><span>Local e horário mudam e nem todo mundo é avisado</span></li>
+          <li data-reveal data-delay="2"><span class="num">02</span><span>Informação espalhada entre planilha, grupo e e-mail</span></li>
+          <li data-reveal data-delay="3"><span class="num">03</span><span>Ninguém enxerga o que a outra frente está fazendo</span></li>
+          <li data-reveal data-delay="4"><span class="num">04</span><span>Material e estoque controlados de memória</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECOSSISTEMA -->
+  <section class="sec">
+    <h6 data-reveal>O ecossistema</h6>
+    <h2 data-reveal class="h-md">Dois produtos que se completam.</h2>
+    <p class="body muted mb" data-reveal>Criar eventos é um produto. Quadro de equipe com estoque é outro. Você pode usar um só, mas quando os dois conversam a sua produção inteira passa a caber num lugar. É isso que a gente chama de ecossistema FONTE.</p>
+    <div class="grid-2">
+      <article class="card tilt" data-reveal>
+        <span class="kicker">Produto 1</span>
+        <h3>Eventos</h3>
+        <p>Onde vai ser, que horas começa, quantas sessões, quem sobe no palco e quem está na técnica. Você cadastra uma vez e a equipe inteira passa a trabalhar com a mesma informação.</p>
+        <span class="bar"></span>
+        <p class="small">Datas, locais, espetáculos, elenco, ficha técnica, arquivos e responsáveis.</p>
+      </article>
+      <article class="card tilt" data-reveal data-delay="1">
+        <span class="kicker">Produto 2</span>
+        <h3>Quadros e estoque</h3>
+        <p>O kanban da equipe com responsáveis, prazos e comentários, junto do controle do que você tem em mãos. Cada card guarda a decisão e o histórico dela.</p>
+        <span class="bar"></span>
+        <p class="small">Tarefas, etiquetas, anexos, material, cenário, equipamento e figurino: o que existe, onde está e quem levou.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ESTRUTURA -->
+  <section class="sec">
+    <h6 data-reveal>A estrutura</h6>
+    <h2 data-reveal class="h-md">Um evento, vários espetáculos dentro dele.</h2>
+    <p class="body muted mb" data-reveal>Pensa no Rock in Rio: esse é o evento. A apresentação do Elton John, às 22h10 no Palco Mundo, é um espetáculo dentro dele. A FONTE trabalha nos dois níveis, então o que vale para o evento inteiro fica no evento, e cada atração carrega o seu horário, o seu palco, a sua equipe e o seu material.</p>
+    <div class="grid-2 top-align">
+      <article class="card event" data-reveal>
+        <span class="kicker">Evento</span>
+        <h3>Rock in Rio 2027</h3>
+        <dl class="kv">
+          <dt>Local</dt><dd>Cidade do Rock, Rio de Janeiro</dd>
+          <dt>Período</dt><dd>4 a 12 de setembro</dd>
+          <dt>Equipe</dt><dd>Produção, técnica, logística</dd>
+          <dt>Espetáculos</dt><dd><span class="count" data-to="38">38</span> atrações em 4 palcos</dd>
+        </dl>
+      </article>
+      <div class="shows">
+        <article class="show" data-reveal data-delay="1">
+          <div class="show-head"><h4>Elton John</h4><span>22h10 · Palco Mundo</span></div>
+          <p>Rider técnico, passagem de som às 17h, 2 pianos e equipe de 14 pessoas.</p>
+        </article>
+        <article class="show" data-reveal data-delay="2">
+          <div class="show-head"><h4>Abertura nacional</h4><span>19h30 · Palco Sunset</span></div>
+          <p>Elenco confirmado, cenografia em montagem desde as 6h.</p>
+        </article>
+        <article class="show dim" data-reveal data-delay="3">
+          <div class="show-head"><h4>+ 36 outros espetáculos</h4><span>4 palcos · 9 dias</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVISO -->
+  <section class="sec split center">
+    <div>
+      <h6 data-reveal>Aviso automático</h6>
+      <h2 data-reveal class="h-md">A equipe fica sabendo sem você ter que avisar.</h2>
+      <p class="body muted" data-reveal>Card movido, prazo alterado, responsável trocado: quem precisa saber recebe por e-mail e notificação, com link direto para o card. Você para de repetir as mesmas coisas no grupo.</p>
+    </div>
+    <div class="mail-wrap" data-reveal>
+      <div class="push" id="push" aria-hidden="true"><i class="bell">🔔</i><span><b>FONTE</b> · Cartão movido</span></div>
+      <div class="mail">
+        <div class="mail-bar">FONTE · Temporada 2026</div>
+        <div class="mail-body">
+          <h4>Cartão movido</h4>
+          <p>Arian moveu <strong>Cenografia · aprovação da maquete</strong> para <strong>Concluído</strong>.</p>
+          <dl class="kv small-kv">
+            <dt>Origem</dt><dd>Em andamento</dd>
+            <dt>Destino</dt><dd class="hl">Concluído</dd>
+            <dt>Prazo</dt><dd>12 de março</dd>
+          </dl>
+          <span class="mail-btn">Ver cartão</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEIXANDO CLARO -->
+  <section class="sec">
+    <h6 data-reveal>Deixando claro</h6>
+    <h2 data-reveal class="h-md">A FONTE não vende ingresso. Ela faz o seu evento existir.</h2>
+    <div class="grid-2 text-cols">
+      <p class="body muted" data-reveal>Bilheteria é a parte fácil de contratar. O difícil é o que vem antes: meses de produção, gente, material e prazo. É aí que a FONTE trabalha, e é isso que decide se o evento sobe.</p>
+      <p class="body muted" data-reveal data-delay="1">Se você precisa de bilheteria, do site do evento ou de uma integração com o sistema que já usa, a gente desenvolve sob medida e conecta. Basta pedir.</p>
+    </div>
+  </section>
+
+  <!-- CONSTRUÍDO JUNTO -->
+  <section class="sec">
+    <div class="together" data-reveal>
+      <div>
+        <h6>Construído junto</h6>
+        <h2 class="h-md">Somos brasileiros, somos da área, e a linha está sempre aberta.</h2>
+        <p class="body">A FONTE está sendo construída junto com as equipes que vão usar. Hoje é isso que mais importa para a gente.</p>
+      </div>
+      <div class="stack">
+        <div>
+          <h4>Canal direto com quem desenvolve</h4>
+          <p>Nada de suporte terceirizado nem fila de atendimento. Você manda mensagem e fala com quem escreve o código.</p>
+        </div>
+        <div>
+          <h4>Você pede, entra no roadmap</h4>
+          <p>Se a sua produção precisa de algo, isso vira prioridade aqui. Não vai virar ticket arquivado numa empresa do outro lado do mundo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODELO -->
+  <section class="sec">
+    <h6 data-reveal>Modelo</h6>
+    <h2 data-reveal class="h-md">Acabou o evento, acabou a conta.</h2>
+    <p class="body muted mb" data-reveal>Quem ganha um edital precisa que o dinheiro fique na produção. Não faz sentido carregar um sistema o ano inteiro por um evento que dura nove dias, então a conta é do evento e termina com ele.</p>
+    <div class="grid-3">
+      <article class="card tilt" data-reveal>
+        <h4>Um pagamento por evento</h4>
+        <p>Com quantos espetáculos ele tiver. Se você tem dois eventos, paga duas vezes. Nova edição no ano seguinte, novo pagamento.</p>
+      </article>
+      <article class="card tilt" data-reveal data-delay="1">
+        <h4>Equipe pequena paga menos</h4>
+        <p>O preço acompanha o tamanho da equipe naquele evento. Uma produção de quatro pessoas não paga o mesmo que uma de quarenta, e ninguém compra licença por usuário.</p>
+      </article>
+      <article class="card tilt accent" data-reveal data-delay="2">
+        <h4>Voltou? 10% de desconto</h4>
+        <p>Quando o evento termina a gente não te prende. Fica te esperando na próxima edição, ou no próximo evento, com 10% off. E se você precisa do site do ar o ano todo, mantém só a hospedagem.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="sec">
+    <h6 data-reveal>Perguntas frequentes</h6>
+    <div class="faq" data-reveal>
+      <div class="qa">
+        <button class="q" aria-expanded="false"><span>Quando lança?</span><i aria-hidden="true"></i></button>
+        <div class="a"><div><p>Estamos abrindo um beta fechado para um número específico de convidados. Manda mensagem e a gente te coloca na lista.</p></div></div>
+      </div>
+      <div class="qa">
+        <button class="q" aria-expanded="false"><span>Tem custo?</span><i aria-hidden="true"></i></button>
+        <div class="a"><div><p>Sim, e é simples: um pagamento por evento criado. Dois eventos, dois pagamentos. Para eventos que se repetem muitas vezes ao longo do ano, temos outras opções de plano. A gente conversa e acha a que faz sentido para você.</p></div></div>
+      </div>
+      <div class="qa">
+        <button class="q" aria-expanded="false"><span>Quanto custa para a minha equipe?</span><i aria-hidden="true"></i></button>
+        <div class="a"><div><p>Todo mundo do evento entra, sem licença por pessoa. O preço acompanha o tamanho: equipe pequena paga menos, equipe maior paga mais.</p></div></div>
+      </div>
+      <div class="qa">
+        <button class="q" aria-expanded="false"><span>Serve para evento pequeno?</span><i aria-hidden="true"></i></button>
+        <div class="a"><div><p>Serve. Quanto mais gente envolvida, mais a FONTE rende, mas quem faz um evento de dez pessoas também perde informação no caminho.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUEM FAZ -->
+  <section class="sec split">
+    <div>
+      <h6 data-reveal>Quem faz</h6>
+      <h2 data-reveal class="h-sm">Desenvolvedores e produtores culturais.</h2>
+    </div>
+    <div>
+      <p class="body" data-reveal>Somos desenvolvedores e produtores culturais. A gente viu de perto a necessidade desse sistema no mercado e resolveu construir o que faltava para produzir qualquer evento.</p>
+      <div class="chips">
+        <span data-reveal data-delay="1">Isaque</span>
+        <span data-reveal data-delay="2">Victor Hugo</span>
+        <span data-reveal data-delay="3">Arian</span>
+        <span data-reveal data-delay="4">Moreno</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final" id="final" data-reveal>
+    <h2>Traga o seu próximo evento para a FONTE.</h2>
+    <p>Conta pra gente o que você produz e o que mais te dá dor de cabeça hoje. A gente responde no WhatsApp, e quem responde é quem está construindo a FONTE.</p>
+    <a class="btn big" data-wa href="#" target="_blank" rel="noopener">Falar no WhatsApp <span class="arrow" aria-hidden="true">→</span></a>
+    <p class="phone" id="phone"></p>
+  </section>
+
+  <footer class="foot">
+    <span>FONTE · a fonte de verdade da sua produção</span>
+    <span>Rio de Janeiro, Brasil</span>
+  </footer>
+
+</div>
+
+<!-- CTA fixo no mobile -->
+<div class="dock" id="dock">
+  <a class="btn block" data-wa href="#" target="_blank" rel="noopener">Entrar no beta fechado <span class="arrow" aria-hidden="true">→</span></a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

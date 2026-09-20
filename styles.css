@@ -334,11 +334,20 @@ h6 {
 .qa.open .a p { opacity: 1; transform: none; transition-delay: .1s; }
 
 /* ---------- quem faz ---------- */
-.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
-.chips span {
-  font-size: 14px; color: var(--pale);
-  border: 1px solid var(--line-blue); border-radius: 999px; padding: 8px 18px;
+.team { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px 16px; margin-top: 28px; }
+.team li { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.ph {
+  position: relative; display: block; width: min(150px, 100%); aspect-ratio: 1; border-radius: 50%;
+  padding: 3px; background: conic-gradient(from var(--a, 0deg), var(--blue-deep), var(--blue), var(--blue-deep));
+  animation: spin 8s linear infinite;
+  transition: transform .4s var(--ease);
 }
+.ph img {
+  width: 100%; height: 100%; border-radius: 50%; object-fit: cover;
+  border: 3px solid var(--bg); background: var(--surface);
+}
+.team li:active .ph { transform: scale(.95); }
+.nm { font-size: 15px; font-weight: 500; color: var(--pale); }
 
 /* ---------- CTA final ---------- */
 .final {
@@ -416,6 +425,7 @@ h6 {
   .board-inner { padding: 20px; }
   .cols { gap: 10px; }
   .col { gap: 10px; min-height: 250px; }
+  .team { grid-template-columns: repeat(4, 1fr); }
   .foot { flex-direction: row; justify-content: space-between; }
   .together { padding: 48px 40px; }
   .final { padding: 64px 44px; }
@@ -432,6 +442,7 @@ h6 {
   .btn:hover { background: var(--blue-hi); }
   .btn:hover .arrow { transform: translateX(4px); }
   .q:hover { color: var(--blue); }
+  .team li:hover .ph { transform: translateY(-4px) scale(1.04); }
   .dock { display: none; }
 }
 
